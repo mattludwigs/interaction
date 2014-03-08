@@ -1,0 +1,478 @@
+/*-----------
+	Global
+-------------*/
+
+h2 {
+	margin-bottom: -15px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+
+body {
+	margin: 0 0 0 0;
+	font-family: 'Source Sans Pro';
+}
+
+a:hover {
+	color: #e29d8d;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+.title {
+	letter-spacing: 4px;
+}
+
+/*------------
+	Nav
+--------------*/
+
+header {
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: -20px;
+}
+
+nav {
+	text-align: center;
+	margin: 45px 0 0 0;
+	position: relative;
+}
+
+nav a {
+	color: grey;
+}
+
+nav img {
+	margin: -12px 5px;
+}
+
+nav a:nth-child(1) {
+	color: black;
+}
+
+header #searchicon {
+	float: right;
+	margin-top: -20px;
+}
+
+/* TAKE TOUR BUTTON */
+
+#taketour {
+	position: absolute;
+	border: 1px solid white;
+	text-align: center;
+	background-color: black;
+	z-index: 2;
+	left: 42.5%;
+	bottom: 53px;
+	width: 140px;
+}
+
+#taketour p {
+	padding: 0 5px;
+	text-transform: uppercase;
+	color: white;
+}
+
+#taketour:hover {
+	background-color: #e29d8d;
+	border: 1px solid #e29d8d;
+	color: black;
+}
+
+
+/*-----------
+	Header
+-------------*/
+
+.feature-slider {
+	width: 960px;
+	height: 447px;
+	margin: 0 auto;
+	clear: right;
+	position: relative;
+}
+
+
+.slider_wrapper{
+	overflow: hidden;
+	position:relative;
+	height:447px;
+	top:auto;
+}
+
+#image_slider{
+
+	position: relative;
+	height: auto;
+	list-style: none;
+	overflow: hidden;
+	float: left;
+	/*Chrom default padding for ul is 40px */
+	padding:0px;
+	margin:0px;
+}
+
+#image_slider li{
+	position: relative;
+	float: left;
+	z-index: 1;
+}
+
+.nvgt{
+	position:absolute;
+	top: 175px;
+	height: 74px;
+	width: 74px;
+	border-radius: 50%;
+	z-index: 2;
+	/*opacity: 0.6;*/
+}
+.nvgt:hover{
+	/*opacity: 0.9;*/
+}
+
+#prev{
+	background: #000 url('../img/arrowleft.png') no-repeat center;
+	left: -25px;
+}
+#next{
+	background: #000 url('../img/arrowright.png') no-repeat center;
+	right: -25px;
+}
+
+
+/*----------
+	Projects
+------------*/	
+
+#projects {
+	width: 100%;
+	height: 1076px;
+	background-image: url('../img/maincontentbg.png');
+	margin-left: 0;
+}
+
+
+/*------------
+	Recent Post
+--------------*/
+
+#recentpost {
+	background-image: url('../img/recentpost.png');
+	width: 961px;
+	height: 385px;
+	margin: 127px auto;
+	position: relative;
+	top: 47px;
+}
+
+#recentinfo {
+	width: 25%;
+	position: absolute;
+	top: 80px;
+	left: 30px;
+
+}
+
+#recentinfo h4 {
+	text-transform: uppercase;
+	font-weight: normal;
+	color: grey;
+}
+
+#recentinfo p {
+	color: grey;
+	text-align: justify;
+}
+
+.datetime {
+	color: grey;
+}
+
+
+/*----------
+	Project slider
+------------*/
+
+#otherproject {
+	width: 960px;
+	height: 492px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#otherproject p {
+ color: grey;
+ position: relative;
+ margin-left: 20px;
+}
+
+#otherproject a h2 {
+	margin-left: 20px;
+}
+
+#otherproject p a {
+	position: absolute;
+	top: -38px;
+	right: 170px;
+}
+
+.extrainfo1 img,
+.extrainfo2 img,
+.extrainfo3 img {
+	margin-left: 20px;
+}
+
+.extrainfo1,
+.extrainfo2,
+.extrainfo3 {
+	width: 306px;
+	height: 245px;
+	background-color: #fff;
+}
+ .extrainfo1 {
+ 	margin-top: -23px; 
+ }
+
+ .extrainfo2 {
+ 	position: absolute;
+ 	left: 328px;
+ 	top:0;
+ }
+
+ .extrainfo3 {
+ 	position: absolute;
+ 	right: 0;
+ 	bottom: 2px;
+ }
+
+ .bottommid {
+ 	position: absolute;
+ 	top: 49.8%;
+ 	left: 328px;
+
+ }
+
+ .topright {
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ }
+ .boxshadowpro {
+ 	-moz-box-shadow: 0 0 3px  #e9e9e9;
+  	-webkit-box-shadow: 0 0 3px  #e9e9e9;
+  	box-shadow: 0 0 3px  #e9e9e9;
+ }
+
+/*-------------
+	Feature
+---------------*/	
+
+
+#features {
+	height: 590px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#features p {
+	color: grey;
+}
+
+#features h2{
+	text-align: center;
+}
+
+.baseline {
+	text-align: center;
+}
+
+#featureslayout {
+	margin: 70px auto 0;
+	position: relative;
+}
+
+#featureslayout h2 {
+	text-align: left;
+}
+
+#download {
+	left: -30px;
+}
+
+#award {
+	top: 200px;
+	left: -30px;
+}
+
+#submit {
+	right: -88px;
+	top: -2px;
+}
+
+#collection,
+#submit,
+#award,
+#download
+ {
+	width: 60%;
+	position: absolute;
+
+}
+
+#collection {
+	right: -88px;
+	top: 200px;
+}
+
+#download img {
+	float: left;
+}
+
+.inner {
+	width: 70%;
+	position: absolute;
+	top: 4px;
+	left: 90px;
+}
+
+
+
+/*--------------
+	Connect 
+----------------*/
+
+#connect {
+	background-image: url('../img/connectbg.png');
+	width: 100%;
+	height: 340px;
+	position: relative;
+	padding-top: 40px;
+} 	
+
+#connnect h2 {
+	position: absolute;
+	top: 40px;
+}
+
+#connect h2,
+#connect p {
+	color: white;
+	text-align: center;
+}
+
+.topsocial {
+	position: absolute;
+	left: 75px;
+	top: 190px;
+}
+
+.topsocial img {
+	padding-left: 160px;
+}
+
+.bottomsocial {
+	position: absolute;
+	top: 275px;
+	left: 65px;
+}
+
+.bottomsocial a {
+	color: white;
+	text-transform: none;
+}
+
+.bottomsocial a:nth-child(1) {
+	padding-left: 135px;
+}
+
+.bottomsocial a:nth-child(2) {
+	padding-left: 105px;
+}
+
+.bottomsocial a:nth-child(3) {
+	padding-left: 118px;
+}
+
+.bottomsocial a:nth-child(4) {
+	padding-left: 160px;
+}
+
+.bottomsocial a:hover {
+	color: #e29d8d;
+}
+/*----------------
+	Subscribe
+------------------*/
+
+#subscribe {
+	width: 100%;
+	height: 209px;
+	background-color: black;
+	margin-top: -19px;
+	position: relative;
+}	
+
+#subscribe h2 {
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+
+form {
+	text-align: center;
+	margin-top: 70px;
+}
+
+.email,
+.submit {
+	border: 2px solid white;
+	background-color: black;
+	padding: 15px;
+	color: white;
+}
+
+.email {
+	width: 300px;
+}
+
+.submit {
+	width: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-left: 20px;
+}
+
+.submit:hover {
+	background-color: #e29d8d;
+	color: black;
+	border: 2px solid #e29d8d;
+}
+
+#subscribe a {
+	float: right;
+	margin-right: 150px;
+	margin-top: -10px;
+}
+
+/*----------------
+	Footer
+------------------*/
+
+footer {
+	height: 80px
+}	
+
+
+
+
+
